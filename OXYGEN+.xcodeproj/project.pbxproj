@@ -3,18 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4212EE30255A07BD009BB658 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4212EE2F255A07BD009BB658 /* RoundButton.swift */; };
+		424E06C9254A4AD400C6BBF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424E06C8254A4AD400C6BBF8 /* Assets.xcassets */; };
 		427D0D80252ECCB200C06705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D0D7F252ECCB200C06705 /* AppDelegate.swift */; };
 		427D0D82252ECCB200C06705 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D0D81252ECCB200C06705 /* SceneDelegate.swift */; };
 		427D0D84252ECCB200C06705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D0D83252ECCB200C06705 /* ViewController.swift */; };
 		427D0D87252ECCB200C06705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427D0D85252ECCB200C06705 /* Main.storyboard */; };
-		427D0D89252ECCB300C06705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427D0D88252ECCB300C06705 /* Assets.xcassets */; };
 		427D0D8C252ECCB300C06705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427D0D8A252ECCB300C06705 /* LaunchScreen.storyboard */; };
 		427D0D97252ECCB300C06705 /* OXYGEN_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D0D96252ECCB300C06705 /* OXYGEN_Tests.swift */; };
 		427D0DA2252ECCB300C06705 /* OXYGEN_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D0DA1252ECCB300C06705 /* OXYGEN_UITests.swift */; };
+		9EE5DFF17B906380A9A21526 /* Pods_OXYGEN_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31C7A888C4931BD22741896 /* Pods_OXYGEN_Tests.framework */; };
+		B04FFB560DB386408A169B1B /* Pods_OXYGEN_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C3C34901208D5121998A48 /* Pods_OXYGEN_.framework */; };
+		FF7080547C3C8F7A71E347E6 /* Pods_OXYGEN__OXYGEN_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904AFCA6854C517584FAD620 /* Pods_OXYGEN__OXYGEN_UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003D2342ED2CA39000211488 /* Pods-OXYGEN+.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OXYGEN+.debug.xcconfig"; path = "Target Support Files/Pods-OXYGEN+/Pods-OXYGEN+.debug.xcconfig"; sourceTree = "<group>"; };
+		0BD05FA5C57EAC67509857BE /* Pods-OXYGEN+-OXYGEN+UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OXYGEN+-OXYGEN+UITests.debug.xcconfig"; path = "Target Support Files/Pods-OXYGEN+-OXYGEN+UITests/Pods-OXYGEN+-OXYGEN+UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		16C3C34901208D5121998A48 /* Pods_OXYGEN_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OXYGEN_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4212EE2F255A07BD009BB658 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		424E06C8254A4AD400C6BBF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		427D0D7C252ECCB200C06705 /* OXYGEN+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OXYGEN+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		427D0D7F252ECCB200C06705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		427D0D81252ECCB200C06705 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		427D0D83252ECCB200C06705 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		427D0D86252ECCB200C06705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		427D0D88252ECCB300C06705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		427D0D8B252ECCB300C06705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		427D0D8D252ECCB300C06705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		427D0D92252ECCB300C06705 /* OXYGEN+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OXYGEN+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +57,12 @@
 		427D0D9D252ECCB300C06705 /* OXYGEN+UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OXYGEN+UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		427D0DA1252ECCB300C06705 /* OXYGEN_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OXYGEN_UITests.swift; sourceTree = "<group>"; };
 		427D0DA3252ECCB300C06705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904AFCA6854C517584FAD620 /* Pods_OXYGEN__OXYGEN_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OXYGEN__OXYGEN_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FB7B2708801BC394CE628E /* Pods-OXYGEN+.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OXYGEN+.release.xcconfig"; path = "Target Support Files/Pods-OXYGEN+/Pods-OXYGEN+.release.xcconfig"; sourceTree = "<group>"; };
+		B2709681408AE5B74EDBF549 /* Pods-OXYGEN+Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OXYGEN+Tests.debug.xcconfig"; path = "Target Support Files/Pods-OXYGEN+Tests/Pods-OXYGEN+Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7E99DFF8DE2AE323B9CAC63 /* Pods-OXYGEN+-OXYGEN+UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OXYGEN+-OXYGEN+UITests.release.xcconfig"; path = "Target Support Files/Pods-OXYGEN+-OXYGEN+UITests/Pods-OXYGEN+-OXYGEN+UITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8152633FA2B79F5F65F1BD0 /* Pods-OXYGEN+Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OXYGEN+Tests.release.xcconfig"; path = "Target Support Files/Pods-OXYGEN+Tests/Pods-OXYGEN+Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E31C7A888C4931BD22741896 /* Pods_OXYGEN_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OXYGEN_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04FFB560DB386408A169B1B /* Pods_OXYGEN_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE5DFF17B906380A9A21526 /* Pods_OXYGEN_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7080547C3C8F7A71E347E6 /* Pods_OXYGEN__OXYGEN_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				427D0D95252ECCB300C06705 /* OXYGEN+Tests */,
 				427D0DA0252ECCB300C06705 /* OXYGEN+UITests */,
 				427D0D7D252ECCB200C06705 /* Products */,
+				7E150FC3B74503D3204F71A8 /* Frameworks */,
+				AFEB0881717A89F50BFB5B8D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +118,14 @@
 		427D0D7E252ECCB200C06705 /* OXYGEN+ */ = {
 			isa = PBXGroup;
 			children = (
+				424E06C8254A4AD400C6BBF8 /* Assets.xcassets */,
 				427D0D7F252ECCB200C06705 /* AppDelegate.swift */,
 				427D0D81252ECCB200C06705 /* SceneDelegate.swift */,
 				427D0D83252ECCB200C06705 /* ViewController.swift */,
 				427D0D85252ECCB200C06705 /* Main.storyboard */,
-				427D0D88252ECCB300C06705 /* Assets.xcassets */,
 				427D0D8A252ECCB300C06705 /* LaunchScreen.storyboard */,
 				427D0D8D252ECCB300C06705 /* Info.plist */,
+				4212EE2F255A07BD009BB658 /* RoundButton.swift */,
 			);
 			path = "OXYGEN+";
 			sourceTree = "<group>";
@@ -128,6 +148,29 @@
 			path = "OXYGEN+UITests";
 			sourceTree = "<group>";
 		};
+		7E150FC3B74503D3204F71A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C3C34901208D5121998A48 /* Pods_OXYGEN_.framework */,
+				904AFCA6854C517584FAD620 /* Pods_OXYGEN__OXYGEN_UITests.framework */,
+				E31C7A888C4931BD22741896 /* Pods_OXYGEN_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFEB0881717A89F50BFB5B8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				003D2342ED2CA39000211488 /* Pods-OXYGEN+.debug.xcconfig */,
+				B0FB7B2708801BC394CE628E /* Pods-OXYGEN+.release.xcconfig */,
+				0BD05FA5C57EAC67509857BE /* Pods-OXYGEN+-OXYGEN+UITests.debug.xcconfig */,
+				C7E99DFF8DE2AE323B9CAC63 /* Pods-OXYGEN+-OXYGEN+UITests.release.xcconfig */,
+				B2709681408AE5B74EDBF549 /* Pods-OXYGEN+Tests.debug.xcconfig */,
+				C8152633FA2B79F5F65F1BD0 /* Pods-OXYGEN+Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427D0DA6252ECCB300C06705 /* Build configuration list for PBXNativeTarget "OXYGEN+" */;
 			buildPhases = (
+				DB26DB32B50C7AA040ACC3A3 /* [CP] Check Pods Manifest.lock */,
 				427D0D78252ECCB200C06705 /* Sources */,
 				427D0D79252ECCB200C06705 /* Frameworks */,
 				427D0D7A252ECCB200C06705 /* Resources */,
+				A5B5F37B848C34278ABEEBAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427D0DA9252ECCB300C06705 /* Build configuration list for PBXNativeTarget "OXYGEN+Tests" */;
 			buildPhases = (
+				BD193AE91DB2BDCA4AC8F842 /* [CP] Check Pods Manifest.lock */,
 				427D0D8E252ECCB300C06705 /* Sources */,
 				427D0D8F252ECCB300C06705 /* Frameworks */,
 				427D0D90252ECCB300C06705 /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427D0DAC252ECCB300C06705 /* Build configuration list for PBXNativeTarget "OXYGEN+UITests" */;
 			buildPhases = (
+				39CE3AE64007F335E60CE462 /* [CP] Check Pods Manifest.lock */,
 				427D0D99252ECCB300C06705 /* Sources */,
 				427D0D9A252ECCB300C06705 /* Frameworks */,
 				427D0D9B252ECCB300C06705 /* Resources */,
+				D024609473556B1BEF6D8B13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				427D0D8C252ECCB300C06705 /* LaunchScreen.storyboard in Resources */,
-				427D0D89252ECCB300C06705 /* Assets.xcassets in Resources */,
+				424E06C9254A4AD400C6BBF8 /* Assets.xcassets in Resources */,
 				427D0D87252ECCB200C06705 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,11 +301,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39CE3AE64007F335E60CE462 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OXYGEN+-OXYGEN+UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B5F37B848C34278ABEEBAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OXYGEN+/Pods-OXYGEN+-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OXYGEN+/Pods-OXYGEN+-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OXYGEN+/Pods-OXYGEN+-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD193AE91DB2BDCA4AC8F842 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OXYGEN+Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D024609473556B1BEF6D8B13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OXYGEN+-OXYGEN+UITests/Pods-OXYGEN+-OXYGEN+UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OXYGEN+-OXYGEN+UITests/Pods-OXYGEN+-OXYGEN+UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OXYGEN+-OXYGEN+UITests/Pods-OXYGEN+-OXYGEN+UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB26DB32B50C7AA040ACC3A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OXYGEN+-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		427D0D78252ECCB200C06705 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4212EE30255A07BD009BB658 /* RoundButton.swift in Sources */,
 				427D0D84252ECCB200C06705 /* ViewController.swift in Sources */,
 				427D0D80252ECCB200C06705 /* AppDelegate.swift in Sources */,
 				427D0D82252ECCB200C06705 /* SceneDelegate.swift in Sources */,
@@ -433,6 +585,7 @@
 		};
 		427D0DA7252ECCB300C06705 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003D2342ED2CA39000211488 /* Pods-OXYGEN+.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +604,7 @@
 		};
 		427D0DA8252ECCB300C06705 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0FB7B2708801BC394CE628E /* Pods-OXYGEN+.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +623,7 @@
 		};
 		427D0DAA252ECCB300C06705 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2709681408AE5B74EDBF549 /* Pods-OXYGEN+Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +645,7 @@
 		};
 		427D0DAB252ECCB300C06705 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8152633FA2B79F5F65F1BD0 /* Pods-OXYGEN+Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +667,7 @@
 		};
 		427D0DAD252ECCB300C06705 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD05FA5C57EAC67509857BE /* Pods-OXYGEN+-OXYGEN+UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +687,7 @@
 		};
 		427D0DAE252ECCB300C06705 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E99DFF8DE2AE323B9CAC63 /* Pods-OXYGEN+-OXYGEN+UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

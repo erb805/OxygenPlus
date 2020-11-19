@@ -1,0 +1,6 @@
+framework module Pods_OXYGEN_ {
+  umbrella header "Pods-OXYGEN+-umbrella.h"
+
+  export *
+  module * { export * }
+}
